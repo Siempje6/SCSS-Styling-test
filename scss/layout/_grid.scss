@@ -1,0 +1,14 @@
+
+.container-site{
+    display: grid;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    grid-template-columns: 20% 55% 25%;
+    grid-template-rows: 8rem auto 10rem;
+
+    width: 100vw;
+    height: auto;
+    
+}

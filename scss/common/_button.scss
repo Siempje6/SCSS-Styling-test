@@ -1,0 +1,17 @@
+@use "../base/variables" as *;
+
+@use "sass:color";
+
+.button {
+
+    color: $textcolor;
+    background-color: color.scale($primarycolor, $lightness: 5%);
+    padding: $button_padding;
+    border-radius: $button_borderradius;
+}
+
+.hero-buttongroup a {
+    font-size: $button_fontsize;
+    text-decoration: none;
+    font-family: $font_family;
+}

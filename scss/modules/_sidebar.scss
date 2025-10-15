@@ -1,0 +1,17 @@
+@use "../base/variables" as *;
+
+/*
+<section class="sidebar">
+    <div class="sidebar-container">
+        <div class="sidebar-navigation"></div>
+
+        <div class="sidebar-logo"></div>
+    </div>
+</section>
+*/
+
+.sidebar {
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
