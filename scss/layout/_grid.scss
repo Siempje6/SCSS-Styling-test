@@ -4,11 +4,23 @@
     position: absolute;
     top: 0px;
     left: 0px;
+    right: 0px;
 
-    grid-template-columns: 20% 55% 25%;
-    grid-template-rows: 8rem auto 10rem;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 8rem auto auto auto;
 
-    width: 100vw;
-    height: auto;
-    
+    height: auto;   
+}
+
+.container-research{
+    display: grid;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 8rem auto auto;
+
+    height: auto;   
 }

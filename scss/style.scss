@@ -1,10 +1,14 @@
+@use "base/variables" as *;
 
 @use "layout/grid";
 
 @use "modules/hero";
 @use "modules/sidebar";
+@use "modules/image";
+@use "modules/footer";
 
-@use "common/button";
-@use "common/list";
 
 
+body {
+    background-color: $background_color;
+}

@@ -1,0 +1,16 @@
+@use "../base/variables" as *;
+
+.image-section {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    margin-top: 3rem;
+}
+
+.image-container {
+    left: 0;
+}
+
+.image img {
+    width: 90%;
+    border-radius: $image-radius;
+}

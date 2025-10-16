@@ -1,16 +1,17 @@
 @use "../base/variables" as *;
+@use "../common/logosidebar";
+@use "../common/listvertical";
 
 .sidebar {
     grid-column: 1/2;
     grid-row: 2/4;
-}
 
-.sidebar-logo img {
-    width: 85%;
-}
+    &_logo img {
+        width: 70%;
+    }
 
-.sidebar-logo {
-    display: flex;
-    justify-content: center;
-
+    &_logo a {
+        display: flex;
+        justify-content: center;
+    }
 }

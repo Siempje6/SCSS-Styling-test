@@ -1,0 +1,33 @@
+@use "../base/variables" as *;
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.logo-emptycircle {
+    height: 15px;
+    width: 15px;
+    background-color: $background_color;
+    border: $primarycolor 1.5px solid;
+    border-radius: 50%;
+}
+
+.logo-fullcircle {
+    margin-left: 3px;
+    height: 15px;
+    width: 15px;
+    background-color: $primarycolor;
+    border: $primarycolor 1.5px solid;
+    border-radius: 50%; 
+}
+
+.logo-text {
+    font-size: 18px;
+    text-decoration: none;
+    font-family: $font_family;
+    font-weight: 600;
+    color: $primarycolor;
+    margin-left: 6px;
+}

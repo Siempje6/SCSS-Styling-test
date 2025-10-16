@@ -7,6 +7,7 @@ $font_family: Arial, Helvetica, sans-serif;
 $button_fontsize: 1rem;
 $title_fontsize: 3.2rem;
 $text_fontsize: 18px;
+$list_fontsize: 12px;
 
 // Text colors
 
@@ -23,11 +24,18 @@ $fontweight_bold: 900;
 // Colors 
 
 $primarycolor: #1a5427;
+$background_color: #f8f6f2;
+
+$form_backgroundcolor: #e7e3db;
 
 // Button settings
 
 $button_padding: 13px 25px;
 $button_borderradius: 10px;
+
+// Image settings
+
+$image-radius: 13px;
 
 // List settings
 

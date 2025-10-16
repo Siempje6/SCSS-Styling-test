@@ -1,27 +1,28 @@
 @use "../base/variables" as *;
 
-ul {
+.sidebar-navigation ul {
     list-style: none;
     margin-top: 3rem;
     justify-content: center;
 }
-ul li a{
+.sidebar-navigation ul li a{
     text-decoration: none;
     color: $list_a_color;
     transition: opacity 0.3s ease;
     font-family: $font_family;
+    font-size: $list_fontsize;
 }
 
-ul li {
+.sidebar-navigation ul li {
     margin-top: $listitems_topmargin;
 }
 
-ul:hover li a {
+.sidebar-navigation ul:hover li a {
     filter: blur(1px);
     opacity: 0.2;
 }
 
-ul li:hover a{
+.sidebar-navigation ul li:hover a{
     filter: blur(0px);
     opacity: 1;
 }
@@ -32,4 +33,8 @@ ul li:hover a{
 
 .nav-link:hover svg{
     visibility: visible;
+}
+
+.active a {
+    color: $primarycolor;
 }

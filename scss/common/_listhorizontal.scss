@@ -1,0 +1,21 @@
+@use "../base/variables" as *;
+
+.footer-pages ul,
+.footer-social ul {
+    display: flex; 
+    gap: 3rem;
+    list-style: none;
+}
+
+.footer-pages ul li a,
+.footer-social ul li a {
+    text-decoration: none;
+    color: $list_a_color;
+    font-family: $font_family;
+    opacity: 1;
+}
+
+.footer-pages ul li:hover,
+.footer-social ul li:hover {
+    opacity: 0.4;
+}
