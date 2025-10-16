@@ -20,7 +20,20 @@
     right: 0px;
 
     grid-template-columns: 20% 50% 30%;
-    grid-template-rows: 8rem auto auto auto auto;
+    grid-template-rows: 8rem auto auto auto auto auto;
+
+    height: auto;   
+}
+
+.container-careers{
+    display: grid;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: 8rem auto auto auto auto auto;
 
     height: auto;   
 }

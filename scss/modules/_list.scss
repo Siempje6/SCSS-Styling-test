@@ -1,0 +1,22 @@
+@use "../base/variables" as *;
+
+.list {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    width: 100%;
+
+    &_container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    &_listitem {
+        font-family: $font_family;
+        color: $text_p_color;
+    }
+    &_listitem li.list-disc {
+        opacity: 0.2;
+    }
+    &_strong {
+        color: $list_a_color;
+    }
+}

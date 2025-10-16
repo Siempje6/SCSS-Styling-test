@@ -24,3 +24,27 @@
         color: $text_p_color;
     }
 }
+
+.heroresearch {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    width: 100%;
+
+    &_container {
+        max-width: 80%;
+        margin: 0 auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    &_title {
+        font-size: $title_h1_fontsize;
+        margin-bottom: 1rem;
+        font-weight: $fontweight_small;
+    }
+    &_text {
+        font-size: $text_fontsize;
+        font-family: $font_family;
+        margin-bottom: 3rem;
+        color: $text_p_color;
+    }
+}

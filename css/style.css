@@ -16,7 +16,18 @@
   left: 0px;
   right: 0px;
   grid-template-columns: 20% 50% 30%;
-  grid-template-rows: 8rem auto auto auto auto;
+  grid-template-rows: 8rem auto auto auto auto auto;
+  height: auto;
+}
+
+.container-careers {
+  display: grid;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  grid-template-columns: 20% 50% 30%;
+  grid-template-rows: 8rem auto auto auto auto auto;
   height: auto;
 }
 
@@ -50,6 +61,29 @@
   font-weight: 200;
 }
 .hero_text {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 3rem;
+  color: #555555;
+}
+
+.heroresearch {
+  grid-column: 2/3;
+  grid-row: 6/7;
+  width: 100%;
+}
+.heroresearch_container {
+  max-width: 80%;
+  margin: 0 auto;
+  height: auto;
+  padding-bottom: 20px;
+}
+.heroresearch_title {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+  font-weight: 200;
+}
+.heroresearch_text {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 3rem;
@@ -272,6 +306,48 @@
   font-weight: 200;
 }
 
+.paragraphvalues {
+  grid-column: 2/3;
+  grid-row: 6/7;
+  width: 100%;
+}
+.paragraphvalues_container {
+  width: 80%;
+  margin: 0 auto;
+}
+.paragraphvalues_title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 200;
+}
+.paragraphvalues_text {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555555;
+  font-weight: 200;
+}
+
+.paragraphoffer {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  width: 100%;
+}
+.paragraphoffer_container {
+  width: 80%;
+  margin: 0 auto;
+}
+.paragraphoffer_title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 200;
+}
+.paragraphoffer_text {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555555;
+  font-weight: 200;
+}
+
 .summary {
   grid-column: 2/3;
   grid-row: 5/6;
@@ -322,6 +398,26 @@
   opacity: 1 !important;
   filter: blur(0) !important;
   transform: scale(1.01);
+}
+
+.list {
+  grid-column: 2/3;
+  grid-row: 5/6;
+  width: 100%;
+}
+.list_container {
+  width: 80%;
+  margin: 0 auto;
+}
+.list_listitem {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555555;
+}
+.list_listitem li.list-disc {
+  opacity: 0.2;
+}
+.list_strong {
+  color: #041309;
 }
 
 body {
