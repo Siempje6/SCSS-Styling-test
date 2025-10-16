@@ -1,17 +1,16 @@
 @use "../base/variables" as *;
 
-/*
-<section class="sidebar">
-    <div class="sidebar-container">
-        <div class="sidebar-navigation"></div>
-
-        <div class="sidebar-logo"></div>
-    </div>
-</section>
-*/
-
 .sidebar {
     grid-column: 1/2;
     grid-row: 2/4;
 }
 
+.sidebar-logo img {
+    width: 85%;
+}
+
+.sidebar-logo {
+    display: flex;
+    justify-content: center;
+
+}

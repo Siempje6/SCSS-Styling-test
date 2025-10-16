@@ -1,21 +1,35 @@
+// Font Family
 
 $font_family: Arial, Helvetica, sans-serif;
+
+// Font sizes
 
 $button_fontsize: 1rem;
 $title_fontsize: 3.2rem;
 $text_fontsize: 18px;
 
+// Text colors
+
 $textcolor: #fff;
 $text_p_color: #555555;
 $title_h1_color: #041309;
+$list_a_color: #041309;
+
+// Font weights 
 
 $fontweight_small: 300;
 $fontweight_bold: 900;
 
+// Colors 
+
 $primarycolor: #1a5427;
+
+// Button settings
 
 $button_padding: 13px 25px;
 $button_borderradius: 10px;
 
-$list_topmargin: 20px;
+// List settings
+
+$listitems_topmargin: 15px;
 

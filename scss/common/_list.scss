@@ -2,10 +2,34 @@
 
 ul {
     list-style: none;
+    margin-top: 3rem;
+    justify-content: center;
 }
 ul li a{
     text-decoration: none;
-    color: $title_h1_color;
-    
-    margin-top: $list_topmargin;
+    color: $list_a_color;
+    transition: opacity 0.3s ease;
+    font-family: $font_family;
+}
+
+ul li {
+    margin-top: $listitems_topmargin;
+}
+
+ul:hover li a {
+    filter: blur(1px);
+    opacity: 0.2;
+}
+
+ul li:hover a{
+    filter: blur(0px);
+    opacity: 1;
+}
+
+.nav-link svg{
+    visibility: hidden;
+}
+
+.nav-link:hover svg{
+    visibility: visible;
 }
