@@ -1,0 +1,60 @@
+@use "../base/variables" as *;
+
+.summary {
+  grid-column: 2/3;
+  grid-row: 5/6;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  &_container {
+    width: 81%;
+    margin: 0 auto;
+  }
+
+  &_list {
+    position: relative;
+  }
+
+  &_item {
+    width: 100%;
+    border-bottom: $border_color 1.5px solid;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: filter 0.3s ease;
+    opacity: 1;
+    filter: blur(0);
+    cursor: pointer;
+    position: relative;
+  }
+
+  &_title {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: $font_family;
+    color: $list_a_color;
+  }
+
+  &_year {
+    position: absolute;
+    right: 5px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #7f7f7d;
+    font-family: $font_family;
+  }
+
+  &_list:hover .summary_item {
+    opacity: 0.3;
+    filter: blur(2px);
+  }
+
+  &_item:hover {
+    opacity: 1 !important;
+    filter: blur(0) !important;
+    transform: scale(1.01);
+  }
+}

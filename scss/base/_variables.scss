@@ -5,7 +5,8 @@ $font_family: Arial, Helvetica, sans-serif;
 // Font sizes
 
 $button_fontsize: 1rem;
-$title_fontsize: 3.2rem;
+$title_h1_fontsize: 3.2rem;
+$title_h2_fontsize: 2.5rem;
 $text_fontsize: 18px;
 $list_fontsize: 12px;
 
@@ -18,13 +19,15 @@ $list_a_color: #041309;
 
 // Font weights 
 
-$fontweight_small: 300;
+$fontweight_small: 200;
 $fontweight_bold: 900;
 
 // Colors 
 
 $primarycolor: #1a5427;
 $background_color: #f8f6f2;
+
+$border_color: #041309;
 
 $form_backgroundcolor: #e7e3db;
 
