@@ -3,7 +3,6 @@
 @use "sass:color";
 
 .button {
-
     color: $textcolor;
     background-color: color.scale($primarycolor, $lightness: 5%);
     padding: $button_padding;

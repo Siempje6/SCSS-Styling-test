@@ -1,0 +1,30 @@
+@use "../base/variables" as *;
+
+@use "../common/button";
+
+.herolist {
+    grid-column: 2/3;
+    grid-row: 8/9;
+    width: 100%;
+
+    &_container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    &_title {
+        font-size: $title_h2_fontsize;
+        font-weight: $fontweight_small;
+    }
+    &_list {
+        margin-bottom: 3rem;
+        &_listitem {
+            color: $text_p_color;
+            font-family: $font_family;
+            font-size: $text_p_color;
+
+            &_strong {
+                color: $list_a_color;
+            }
+        }
+    }
+}

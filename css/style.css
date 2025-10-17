@@ -27,7 +27,7 @@
   left: 0px;
   right: 0px;
   grid-template-columns: 20% 50% 30%;
-  grid-template-rows: 8rem auto auto auto auto auto;
+  grid-template-rows: 8rem auto auto auto auto auto auto auto;
   height: auto;
 }
 
@@ -418,6 +418,36 @@
 }
 .list_strong {
   color: #041309;
+}
+
+.herolist {
+  grid-column: 2/3;
+  grid-row: 8/9;
+  width: 100%;
+}
+.herolist_container {
+  width: 80%;
+  margin: 0 auto;
+}
+.herolist_title {
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+.herolist_list {
+  margin-bottom: 3rem;
+}
+.herolist_list_listitem {
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: #555555;
+}
+.herolist_list_listitem_strong {
+  color: #041309;
+}
+
+.slider {
+  grid-column: 2/3;
+  grid-row: 7/8;
 }
 
 body {
