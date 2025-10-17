@@ -1,5 +1,4 @@
-
-.container-site{
+.container-site {
     display: grid;
     position: absolute;
     top: 0px;
@@ -9,10 +8,12 @@
     grid-template-columns: 20% 50% 30%;
     grid-template-rows: 8rem auto auto auto;
 
-    height: auto;   
+    height: auto;
 }
 
-.container-research{
+
+
+.container-research {
     display: grid;
     position: absolute;
     top: 0px;
@@ -22,10 +23,12 @@
     grid-template-columns: 20% 50% 30%;
     grid-template-rows: 8rem auto auto auto auto auto auto;
 
-    height: auto;   
+    height: auto;
 }
 
-.container-careers{
+
+
+.container-careers {
     display: grid;
     position: absolute;
     top: 0px;
@@ -35,10 +38,25 @@
     grid-template-columns: 20% 50% 30%;
     grid-template-rows: 8rem auto auto auto auto auto auto auto auto;
 
-    height: auto;   
+    height: auto;
 }
 
-.container-blog{
+@media screen and (max-width: 900px) {
+    .container-careers {
+        display: grid;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 8rem auto auto auto;
+
+        height: auto;
+    }
+}
+
+.container-blog {
     display: grid;
     position: absolute;
     top: 0px;
@@ -48,10 +66,10 @@
     grid-template-columns: 20% 50% 30%;
     grid-template-rows: 8rem auto auto;
 
-    height: auto;   
+    height: auto;
 }
 
-.container-blogitem{
+.container-blogitem {
     display: grid;
     position: absolute;
     top: 0px;
@@ -61,5 +79,5 @@
     grid-template-columns: 20% 50% 30%;
     grid-template-rows: 8rem auto auto;
 
-    height: auto;   
+    height: auto;
 }

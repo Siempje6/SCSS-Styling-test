@@ -1,0 +1,25 @@
+@use "../base/variables" as *;
+
+.header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    width: 100%;
+
+    &_container {
+        margin: 10px;
+        &_logodiv {
+            
+            &_logo {
+                display: flex;
+                justify-content: start;
+                margin: 50px 20px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:900px) {
+    .header {
+        visibility: hidden;
+    }
+}
