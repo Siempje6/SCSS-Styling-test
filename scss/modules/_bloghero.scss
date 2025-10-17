@@ -23,5 +23,11 @@
         font-family: $font_family;
         font-size: $font_date_size;
     }
+
+    &_date_gray {
+        font-family: $font_family;
+        font-size: $font_date_size;
+        color: $text_p_color;
+    }
     
 }
