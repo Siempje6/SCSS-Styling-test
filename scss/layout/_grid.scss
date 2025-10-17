@@ -37,3 +37,29 @@
 
     height: auto;   
 }
+
+.container-blog{
+    display: grid;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: 8rem auto auto;
+
+    height: auto;   
+}
+
+.container-blogitem{
+    display: grid;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: 8rem auto auto;
+
+    height: auto;   
+}
