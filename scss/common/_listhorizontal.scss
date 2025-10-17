@@ -19,3 +19,43 @@
 .footer-social ul li:hover {
     opacity: 0.4;
 }
+
+.footerresearch-pages ul,
+.footerresearch-social ul {
+    display: flex; 
+    gap: 3rem;
+    list-style: none;
+}
+
+.footerresearch-pages ul li a,
+.footerresearch-social ul li a {
+    text-decoration: none;
+    color: $list_a_color;
+    font-family: $font_family;
+    opacity: 1;
+}
+
+.footerresearch-pages ul li:hover,
+.footerresearch-social ul li:hover {
+    opacity: 0.4;
+}
+
+.footercareers-pages ul,
+.footercareers-social ul {
+    display: flex; 
+    gap: 3rem;
+    list-style: none;
+}
+
+.footercareers-pages ul li a,
+.footercareers-social ul li a {
+    text-decoration: none;
+    color: $list_a_color;
+    font-family: $font_family;
+    opacity: 1;
+}
+
+.footercareers-pages ul li:hover,
+.footercareers-social ul li:hover {
+    opacity: 0.4;
+}
