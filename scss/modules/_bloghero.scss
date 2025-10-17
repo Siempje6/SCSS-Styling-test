@@ -1,0 +1,27 @@
+@use "../base/variables" as *;
+@use "../common/blogimage";
+
+.bloghero {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+
+    &_container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    &_title {
+        font-size: $title_h2_fontsize;
+        font-weight: $fontweight_small;
+    }
+    &_text {
+        font-size: $text_fontsize;
+        color: $text_p_color;
+        font-family: $font_family;
+    }
+    &_date {
+        font-family: $font_family;
+        font-size: $font_date_size;
+    }
+    
+}

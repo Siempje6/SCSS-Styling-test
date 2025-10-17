@@ -1,0 +1,17 @@
+@use "../base/variables" as *;
+
+.blogimage {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    margin-top: 3rem;
+
+    &_container {
+        left: 0;
+    }
+
+    &_img {
+
+    width: 90%;
+    border-radius: $image-radius;
+    }
+}

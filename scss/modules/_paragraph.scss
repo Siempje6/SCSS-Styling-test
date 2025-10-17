@@ -95,3 +95,32 @@
 
 
 }
+
+.paragraphblog {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width: 100%;
+
+    &_container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    &_title {
+        font-size: $title_h2_fontsize;
+        margin-bottom: 1rem;
+        font-weight: $fontweight_small;
+    }
+    &_text {
+        font-size: $text_fontsize;
+        font-family: $font_family;
+        color: $text_p_color;
+        font-weight: $fontweight_small;
+
+        &_strong {
+            color: $title_h1_color;
+            font-weight: $fontweight_bold;
+        }
+    }
+
+
+}
