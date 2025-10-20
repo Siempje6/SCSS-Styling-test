@@ -45,6 +45,39 @@
             </div>
         </section>
 
+        <section class="header">
+            <div class="header_container">
+                <div class="header_container_logodiv">
+                    <div class="header_container_logodiv_logo" onclick="window.location='../index.html'">
+                        <a href="../index.html" class="logo-emptycircle"></a>
+                        <a href="../index.html" class="logo-fullcircle"></a>
+                        <a href="../index.html" class="logo-text">Reflection</a>
+                    </div>
+                </div>
+
+                <div class="header_container_burgernav">
+                    <div class="header_container_burgernav_burgericon" id="burger-icon">
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                    </div>
+                    <div class="header_container_burgernav_menu" id="burger-menu">
+                        <ul>
+                            <li><a href="research.html">Research</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li>
+                                <a href="https://reflectionai.typeform.com/to/RIT9vntJ" class="nav-link">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
         <section class="paragraphtop">
             <div class="paragraphtop_container">
 
@@ -193,6 +226,18 @@
             </div>
         </section>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const burgerIcon = document.getElementById('burger-icon');
+            const burgerMenu = document.getElementById('burger-menu');
+
+            burgerIcon.addEventListener('click', () => {
+                burgerMenu.classList.toggle('active');  
+                burgerIcon.classList.toggle('active');  
+            });
+        });
+    </script>
 </body>
 
 </html>
