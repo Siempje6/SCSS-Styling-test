@@ -1,25 +1,115 @@
 @use "../base/variables" as *;
 
 .header {
-    grid-column: 1/4;
-    grid-row: 1/2;
-    width: 100%;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  width: 100%;
+  position: relative; 
 
-    &_container {
-        margin: 10px;
-        &_logodiv {
-            
-            &_logo {
-                display: flex;
-                justify-content: start;
-                margin: 50px 20px;
-            }
-        }
+  &_container {
+    margin: 10px;
+
+    &_logodiv {
+      &_logo {
+        display: flex;
+        justify-content: start;
+        margin: 50px 40px;
+      }
     }
+
+    &_burgernav {
+      position: absolute;
+      top: 50px;
+      right: 50px;
+
+      &_burgericon {
+        width: 30px;
+        height: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 1001; 
+
+        .burger-line {
+          display: block;
+          height: 3px;
+          background-color: black;
+          border-radius: 2px;
+          transition: all 0.3s ease;
+        }
+
+        &.active {
+          .burger-line:nth-child(1) {
+            transform: rotate(45deg) translate(9px, 5px);
+          }
+          .burger-line:nth-child(2) {
+            opacity: 0;
+          }
+          .burger-line:nth-child(3) {
+            transform: rotate(-45deg) translate(9px, -5px);
+          }
+        }
+      }
+
+      &_menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-100%);
+        transition: transform 0.4s ease-in-out;
+        z-index: 999; 
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          text-align: center;
+
+          li {
+            margin: 20px 0;
+
+            a {
+              font-size: 2rem;
+              color: $text_p_color;
+              text-decoration: none;
+              transition: opacity 0.3s ease, filter 0.3s ease;
+              opacity: 1;
+              filter: blur(0px);
+            }
+
+            &:hover a {
+              opacity: 1;
+              filter: blur(0px);
+            }
+          }
+
+          li:hover ~ li a,
+          li:hover ~ li,
+          li:hover + li a {
+            opacity: 0.4;
+            filter: blur(1px);
+          }
+        }
+      }
+
+      &_menu.active {
+        transform: translateY(0);
+      }
+    }
+  }
 }
 
 @media screen and (min-width:900px) {
-    .header {
-        visibility: hidden;
-    }
+  .header {
+    visibility: hidden;
+  }
 }
