@@ -141,3 +141,30 @@
         height: auto;
     }
 }
+
+.container-blogitemopenintelligence {
+    display: grid;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: 8rem auto auto auto auto auto ;
+
+    height: auto;
+}
+@media screen and (max-width: 900px) {
+    .container-blogitemopenintelligence {
+        display: grid;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 8rem auto auto auto auto auto ;
+
+        height: auto;
+    }
+}
