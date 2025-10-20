@@ -11,6 +11,21 @@
     height: auto;
 }
 
+@media screen and (max-width: 900px) {
+    .container-site {
+        display: grid;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 8rem auto auto auto;
+
+        height: auto;
+    }
+}
+
 
 
 .container-research {
@@ -24,6 +39,21 @@
     grid-template-rows: 8rem auto auto auto auto auto auto;
 
     height: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .container-research {
+        display: grid;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 8rem auto auto auto auto auto auto;
+
+        height: auto;
+    }
 }
 
 
@@ -50,7 +80,7 @@
         right: 0px;
 
         grid-template-columns: 10% 80% 10%;
-        grid-template-rows: 8rem auto auto auto;
+        grid-template-rows: 8rem auto auto auto auto auto auto auto auto;
 
         height: auto;
     }
@@ -69,6 +99,21 @@
     height: auto;
 }
 
+@media screen and (max-width: 900px) {
+    .container-blog {
+        display: grid;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 8rem auto auto ;
+
+        height: auto;
+    }
+}
+
 .container-blogitem {
     display: grid;
     position: absolute;
@@ -80,4 +125,19 @@
     grid-template-rows: 8rem auto auto;
 
     height: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .container-blogitem {
+        display: grid;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 8rem auto auto ;
+
+        height: auto;
+    }
 }
